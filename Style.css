@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f7fb;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.logo span {
+  color: #2563eb;
+}
+
+.theme-btn {
+  padding: 8px 14px;
+  background: #1e293b;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  color: #ffffff;
+}
+
+.badge {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.hero h1 {
+  font-size: 28px;
+  margin: 16px 0 12px;
+}
+
+.hero p {
+  font-size: 16px;
+  opacity: 0.95;
+  margin-bottom: 24px;
+}
+
+.cta-btn {
+  background-color: #10b981;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Features Cards */
+.features {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 12px;
+  text-align: left;
+  border-left: 5px solid #2563eb;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+
+.card h3 {
+  font-size: 19px;
+  margin-bottom: 8px;
+  color: #1e3a8a;
+}
+
+.card p {
+  font-size: 15px;
+  color: #334155;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1e293b;
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+/* Dark Mode Styles (जब बल्ब चालू होगा तब ये रंग लगेंगे) */
+body.dark-mode {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+body.dark-mode .navbar,
+body.dark-mode .card {
+  background-color: #1e293b;
+  color: #ffffff;
+}
+
+body.dark-mode .logo,
+body.dark-mode .card h3,
+body.dark-mode .card p {
+  color: #f8fafc;
+}
