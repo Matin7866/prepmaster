@@ -20,6 +20,6 @@ modeBtn.addEventListener("click", function() {
 
 // 3. Mock Test बटन दबाने पर मैसेज दिखाना
 ctaBtn.addEventListener("click", function() {
-  alert("🚀 Test #1 Ready! All the best [आपका नाम]!");
+  alert("🚀 Test #1 Ready! All the best");
   ctaBtn.innerText = "Test Started ✅"; 
 });
